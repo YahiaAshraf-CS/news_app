@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:news_app/features/widgets/news_widget.dart';
+import 'package:news_app/features/presentation/view/widgets/news_widget.dart';
 
 class NewsScreen extends StatelessWidget {
   const NewsScreen({super.key});
