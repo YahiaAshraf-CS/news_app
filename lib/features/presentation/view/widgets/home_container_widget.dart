@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:news_app/data/models/news_model.dart';
+import 'package:news_app/features/data/models/news_model.dart';
 
 class HomeContainerWidget extends StatelessWidget {
   const HomeContainerWidget({super.key, required this.articles});

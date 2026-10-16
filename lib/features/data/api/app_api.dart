@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:http/http.dart' as http;
 import 'package:news_app/core/network/api_result.dart';
-import 'package:news_app/data/models/news_model.dart';
+import 'package:news_app/features/data/models/news_model.dart';
 
 abstract class AppApi {
   static Future<ApiResult<dynamic>> getNews() async {
